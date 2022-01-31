@@ -1,5 +1,5 @@
 <h1 align="center">☄️Measure Me</h1>
-<h4 align="center"><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/Oumuamua.jpg?raw=true"  width="400" height="250"/>
+<h4 align="center"><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/Oumuamua.jpg?raw=true"  width="400" height="250"/>
 <h2 align="center">ML models for Measuring Asteroids!!!</h2>
 
 # Notebook includes:
@@ -40,7 +40,7 @@ I researched and found out some bad methods of detecting outliers on the interne
   
 |With Outliers|Without Outliers|
 |----|----|
-|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/before_chart.png?raw=true"  width="330" height="330"/>|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/after_chart.png?raw=true"  width="330" height="330"/>|
+|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/before_chart.png?raw=true"  width="330" height="330"/>|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/after_chart.png?raw=true"  width="330" height="330"/>|
   
 </div>
   
@@ -48,7 +48,7 @@ I researched and found out some bad methods of detecting outliers on the interne
    
 <div>
 <h3>Seaborn Widget (Download Notebook to access)</h3>
-<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/Seaborn_widget.png" height="400" width="850" />
+<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/Seaborn_widget.png" height="400" width="850" />
 </div>
 <br />
 <br />
@@ -59,13 +59,13 @@ Removing outliers gave me a significant boost in model performance. My previous 
 <h2>Stratifying and Splitting the data</h2>
   An extra column called diameter_grp was created. This was a class column which contained values from 1 to 5 signifying how big the diameter of the asteroid was.
   The process is called Stratified Sampling and is done so that we can maintain the same proportion for each group(1-5) in both, the original dataframe and the splitted dataframe. The graph shows the number of values in each group:
-<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/Stratified.png"/></br></br>
+<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/Stratified.png"/></br></br>
 <div>
   Next, I performed stratified sampling using StratifiedShuffleSplit with respect to 'diameter_grp'. Lets check the proportions of each group in the original and splitted dataset. They look almost equal. This has a positive effect on our models. </br></br>
   
 |Original proportions|Training proportions|
 |----|----|
-|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/orig_prop.png" width="400" height="200"/>|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/train_prop.png" width="400" height="200"/>|
+|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/orig_prop.png" width="400" height="200"/>|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/train_prop.png" width="400" height="200"/>|
 </br>
 </br>
 Previous Best:</br> Best Model: Random Forest. </br>MSE: 14.0625 </br>RMSE: 3.7500 </br>MAE: 1.2805 </br></br>
@@ -83,7 +83,7 @@ SVR performs the worst among all the models. It also ran slower than all the mod
   Decision tree gives great results. Setting the tree depth to 4 gives the least error and the lowest runtime. RandomForest beat Decision tree by a quite a bit. It was the reigning champion for a long time. I decided to run hyperparameter optimization on RandomForest but it produced no significant improvements.
   <div align="center">
 <h3>Decision Tree</h3>
-<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/decision_tree_viz.png" height="400" width="850" />
+<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/decision_tree_viz.png" height="400" width="850" />
   <h4>H shared a significant relation with diameter. This is clearly reflected in the tree.</h4>
 
 </div></br></br>
@@ -121,7 +121,7 @@ https://scikit-learn.org/stable/auto_examples/tree/plot_cost_complexity_pruning.
 
 |Day 3|Final Day|
 |----|----|
-|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/Before_comparison.png" height="400" width="400" />|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/Final_comparison.png" width="400" height="400"/>|
+|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/Before_comparison.png" height="400" width="400" />|<h4><img src="https://github.com/harshjadhav890/Machine-Learning/blob/main/images/Final_comparison.png" width="400" height="400"/>|
 
 Best Model: XGBoost. </br>MSE: 9.8679</br>RMSE: 3.1413 </br>MAE: 1.2129 </br></br>
 
