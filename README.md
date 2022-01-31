@@ -102,7 +102,7 @@ https://scikit-learn.org/stable/auto_examples/tree/plot_cost_complexity_pruning.
 - Table:
 <div>
  
-|Model|RMSE|RMSE|MAE|
+|Model|MSE|RMSE|MAE|
 |----|----|----|----|
 |Linear Regression|175.66|13.25|8.43|
 |Lasso|194.45|13.94|8.79|
