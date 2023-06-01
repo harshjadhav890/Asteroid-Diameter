@@ -1,5 +1,36 @@
 Open <strong>Asteroid_updated_notebook.ipynb</strong> for the updated project. Open in colab for a better view.<br>
-👇This readme is for the older version of the project: <strong>Asteroid.ipynb</strong>
+## Table of contents of the updated project:
+### ⚙️ Data processing
+- 👩‍🍳 Data preprocessing pipeline<br>
+
+### 📊🎨 Data Analysis
+- 💡 "How do Albedo and H relate to diameter?"
+- Understanding other attributes associated to predicting diameter
+- 💡 "How do Mean motion and Orbital Period relate to diameter?"
+- ☠️ The threat posed by Near Earth Asteroids🌏
+- 🔭Observing the asteroids
+- Rankings🥇🥈🥉
+- Studying the composition⚛️
+- Distributions and eccentricies💫
+
+### 👾Playing around
+- Feature Engineering
+- Training on estimated diameter and spectral classes
+- Isolation forests🌲🌳
+- Stratified Sampling from scratch
+- 📊Interactive Seaborn Widget
+
+### 🤖Implementing ML models
+- Hyperparameter tuning using WandB sweeps🧹
+- Parralel coordinate plot for XGBoost model
+- Model Interpretation with Lime🍋
+
+### ☄️Comparing the Models
+
+<br>
+
+---
+### 👇This readme is for the older version of the project: <strong>Asteroid.ipynb</strong>
 <h1 align="center">☄️Measure Me</h1>
 <h4 align="center"><img src="https://github.com/harshjadhav890/Asteroid-Diameter/blob/main/images/Oumuamua.jpg?raw=true"  width="400" height="250"/>
 <h2 align="center">ML models for Measuring Asteroids!!!</h2>
