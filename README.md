@@ -1,3 +1,5 @@
+Open Asteroid_updated_notebook.ipynb for the updated project<br>
+This readme is for the older version of the project: Asteroid.ipynb
 <h1 align="center">☄️Measure Me</h1>
 <h4 align="center"><img src="https://github.com/harshjadhav890/Asteroid-Diameter/blob/main/images/Oumuamua.jpg?raw=true"  width="400" height="250"/>
 <h2 align="center">ML models for Measuring Asteroids!!!</h2>
